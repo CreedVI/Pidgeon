@@ -122,7 +122,7 @@ class Lithuanian extends JFrame implements KeyListener {
                     match=true;
                 }
             }
-            if(!match){
+            /*if(!match){
                 if(T1.getText().toLowerCase().equals("verb")||T1.getText().toLowerCase().equals("verbs")){
                     displayArea.append("Regular Conjugation Chart:\n\n"
                         + "Ich\t[stem]+e\n"
@@ -150,7 +150,7 @@ class Lithuanian extends JFrame implements KeyListener {
                         + "They\t\tsie\n"); 
                 match = true;
                 }
-                
+                */
             else{
                 L1.setText("Sorry, I don't know that word.");
             }
