@@ -466,5 +466,24 @@ public class arrays {
     /*
      END LITHUANIAN DEPENDANCIES
      */
+    
+    /*
+    BEGIN ESPERANTO DEPENDANCIES
+    */
+    
+    /*
+    Special ref:
+    ĉ  ŝ  ĝ  ĥ  ĵ  ŭ
+    */
+    
+    public static String esperantoList[][]={
+        {"To","be","Esti","Regular","est"},
+    };
+    
+    public static String esperantoPro[] = {"Mi","Vi","Li","Ŝi","Ĝi","Ni","Ili"};
+    
+    /*
+    END ESPERANTO DEPENDANCIES
+    */
 
 }

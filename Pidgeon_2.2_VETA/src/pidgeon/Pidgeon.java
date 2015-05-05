@@ -19,8 +19,8 @@ import javax.swing.plaf.synth.SynthLookAndFeel;
 public class Pidgeon {
      
     static BufferedImage myImg;
-    final static String imagePath = "/home/CreedVI/NetBeansProjects/Pidgeon 2.2 VETA/images/icon.png";
-    final static String fontPath = "/home/CreedVI/NetBeansProjects/Pidgeon 2.2 VETA/fonts/Raleway-Regular.ttf";
+    final static String imagePath = "images/icon.png";
+    final static String fontPath = "fonts/Raleway-Regular.ttf";
     
     static Font font;
     static Font fontt;

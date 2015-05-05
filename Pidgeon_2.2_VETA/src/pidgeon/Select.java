@@ -26,6 +26,7 @@ public class Select extends JFrame {
     JButton span;
     JButton dut;
     JButton lit;
+    JButton esp;
     
     Dimension dim = new Dimension(100,22);
     
@@ -44,6 +45,11 @@ public class Select extends JFrame {
         dut.setPreferredSize(dim);
         dut.setFont(fonttt);
         dut.addActionListener(h);
+        
+        esp = new JButton("Esperanto");
+        esp.setPreferredSize(dim);
+        esp.setFont(fonttt);
+        esp.addActionListener(h);
         
         ger = new JButton("German");
         ger.setPreferredSize(dim);
@@ -73,8 +79,9 @@ public class Select extends JFrame {
         
         add(txt);
         add(dut);
+        add(esp);
         add(ger);
-        //add(lit);
+        add(lit);
         add(span); 
         add(y);
     } 
@@ -88,6 +95,10 @@ public class Select extends JFrame {
             }
             else if(event.getSource().equals(dut)){
                 Dutch p = new Dutch();
+                dispose();
+            }
+            else if(event.getSource().equals(esp)){
+                Esperanto p = new Esperanto();
                 dispose();
             }
 //            else if(event.getSource().equals(lit)){
